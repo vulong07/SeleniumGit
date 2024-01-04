@@ -1,0 +1,11 @@
+
+<suite name="Sample Test Suite">
+  <test name="Sample Test">
+    <classes>
+      <class name="com.qa.selection03.anton" />
+      <include name= "test_form_hardsanity"></include>>
+      <class name="com.qa.selection03.anton" />
+      <include name = " test_form_softsanity"/>
+    </classes>
+  </test>
+</suite>

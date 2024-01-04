@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Demo Berfore Test Suite">
+  <test thread-count="5" name="Test Before Test">
+    <classes>
+      <class name="com.qa.selection04.testBeforeandAfter"/>
+      <class name="com.qa.selection03.anton"/>
+      <include name="test_form_hardsanity"/>
+      
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Demo Berfore Test Suite -->
